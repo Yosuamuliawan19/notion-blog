@@ -33,6 +33,8 @@ export const FooterImpl: React.FC = () => {
     setHasMounted(true)
   }, [])
 
+  return null
+
   return (
     <footer className={styles.footer}>
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
